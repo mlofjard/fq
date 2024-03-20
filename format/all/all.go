@@ -20,6 +20,7 @@ import (
 	_ "github.com/wader/fq/format/crypto"
 	_ "github.com/wader/fq/format/csv"
 	_ "github.com/wader/fq/format/dns"
+	_ "github.com/wader/fq/format/edid"
 	_ "github.com/wader/fq/format/elf"
 	_ "github.com/wader/fq/format/fairplay"
 	_ "github.com/wader/fq/format/fit"

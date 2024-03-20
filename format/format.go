@@ -92,6 +92,10 @@ var (
 	CSV                 = &decode.Group{Name: "csv"}
 	DNS                 = &decode.Group{Name: "dns"}
 	DNS_TCP             = &decode.Group{Name: "dns_tcp"}
+	EDID                = &decode.Group{Name: "edid"}
+	EDID_Extension      = &decode.Group{Name: "edid_extension"}
+	EDID_Ext_DisplayID  = &decode.Group{Name: "edid_extension_displayid"}
+	EDID_Ext_CEA861     = &decode.Group{Name: "edid_extension_cea861"}
 	ELF                 = &decode.Group{Name: "elf"}
 	Ether_8023_Frame    = &decode.Group{Name: "ether8023_frame"}
 	Exif                = &decode.Group{Name: "exif"}
